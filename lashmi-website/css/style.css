@@ -1104,3 +1104,39 @@ footer .heart {
   .reviews-grid, .products-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: 1fr; }
 }
+/* This targets the logo specifically */
+.nav-logo-img {
+    height: 40px;           /* Small height to fit the navbar */
+    width: 40px;            /* Equal width to keep it a perfect circle */
+    border-radius: 50%;     /* This makes the square photo a circle */
+    object-fit: cover;      /* This prevents the photo from looking 'stretched' */
+    margin-right: 10px;     /* Space between logo and the text */
+    border: 2px solid #fff; /* Optional: adds a thin white border to make it pop */
+    vertical-align: middle;
+}
+
+/* Ensure the logo container aligns items correctly */
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+/* Container for the logo to keep it circular */
+.hero-badge {
+    width: 60px;           /* Match the original 'SO' badge size */
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;      /* Clips the image into a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;      /* Optional: white background if logo is transparent */
+    margin: 0 auto 20px;   /* Center it and add space below */
+    border: 2px solid #f39c12; /* Keeps the orange theme border */
+}
+
+/* The actual logo image inside the badge */
+.hero-logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     /* Prevents stretching/squishing */
+}
