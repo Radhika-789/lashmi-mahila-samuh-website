@@ -35,18 +35,24 @@ This project focuses on **social impact and digital accessibility**.
 
 ---
 
-##  Project Structure
+## Project Structure
+
+```text
 lashmi-mahila-samuh-website/
-- │── index.html
-- │── about.html
-- │── products.html
-- │── contact.html
-- │── css/
-- │ └── styles.css
-- │── js/
-- │ └── script.js
-- │── images/
-- │── README.md
+│
+├── lashmi-website/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│
+├── README.md
+└── .gitattributes
+```
+
+
 ## Acknowledgements
 Inspired by women empowerment initiatives
 Built for learning and social impact

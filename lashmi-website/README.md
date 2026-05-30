@@ -6,6 +6,7 @@ A clean, responsive multi-page website for the Lashmi Mahila Samuh social organi
 
 ```
 lashmi-website/
+
 ├── index.html          ← Main HTML (all sections)
 ├── css/
 │   └── style.css       ← All styles, variables, responsive
@@ -37,15 +38,6 @@ lashmi-website/
 - Animated stat counters (counts up when in view)
 - Hero parallax background
 - Fully responsive (900px, 520px breakpoints)
-
-## To Customize
-
-1. **Phone numbers**: Search for `+91 98765` in `index.html` and replace
-2. **Amazon link**: Find `https://www.amazon.in` and replace with your store URL
-3. **WhatsApp**: Update `https://wa.me/919876543210` with your number
-4. **Email**: Replace `info@socialorg.com`
-5. **Images**: Replace Unsplash URLs with your own hosted images
-6. **Colors**: Edit CSS variables at the top of `css/style.css`
 
 ## Tech Stack
 
